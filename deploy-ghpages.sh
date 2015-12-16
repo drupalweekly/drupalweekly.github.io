@@ -1,7 +1,7 @@
 #!/bin/bash
 rm -rf public || exit 0;
 mkdir public;
-node build.js
+
 ( cd public
  git init
  git config user.name "Travis-CI"
