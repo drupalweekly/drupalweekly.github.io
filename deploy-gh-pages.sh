@@ -16,4 +16,4 @@ cp -rf ../assets assets
 
 git add .
 git commit -m "Deploy to GitHub Pages"
-git push --force --quiet "https://gneutzling:${GH_TOKEN}@github.com/drupalweekly/drupalweekly.github.io.git" master:gh-pages
+git push --force --quiet "https://${GH_TOKEN}@github.com/drupalweekly/drupalweekly.github.io.git" master:gh-pages
