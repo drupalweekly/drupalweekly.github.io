@@ -1,7 +1,4 @@
-language: node_js
-node_js:
-- "4.1"
-script: npm run-script deploy
+script: bash ./deploy-ghpages.sh
 env:
  global:
  - GITHUB_REPO: "drupalweekly/drupalweekly.github.io"
